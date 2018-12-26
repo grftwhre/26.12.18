@@ -38,13 +38,6 @@ int main()
             }
         }
        }
-   point q;
-   point r;
-   q.x=1;
-   q.y=4;
-   r.x=5;
-   r.y=3;
-   printf("%d",range(q,r));
     printf("min range = %d",m);
     return 0;
 }
