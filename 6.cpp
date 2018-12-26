@@ -17,7 +17,7 @@ double searchb (double a, double b, double e)
 }
 int main()
 {
-    int x1,x2,e;
+    double x1,x2,e;
     printf("enter okrestnosty\n");
     scanf("%d",&x1);
     scanf("%d",&x2);
