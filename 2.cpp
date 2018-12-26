@@ -5,7 +5,7 @@ int func(double x)
 {
     return x*x-5*x+4;
 }
-int searchb(int arr[],l,r)
+int searchb(double arr[],int l,int r)
 {
     int x=arr[(l+r)/2];
     if (func(x)>0)
@@ -19,8 +19,8 @@ int searchb(int arr[],l,r)
 }
 int main()
 {
-double x1=-2;
-double x2=33;
+int x1=-2;
+int x2=33;
 double n=fabs(x1)+fabs(x2);
 double a[n];
 for (double k=-x1;k<=x2;k++)
