@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream> //*она не доделана*//
 #include <stdio.h>
 using namespace std;
 int minimal(a[],n)
