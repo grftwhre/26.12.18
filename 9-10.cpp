@@ -4,7 +4,7 @@
 using namespace std;
 int main()
 {
- int M,N,t,maxx;
+ int M,N,t,maxx,l;
  printf("enter N\n");
  scanf("%d",&N);
  printf("enter M\n");
@@ -16,6 +16,7 @@ int main()
        A[k][i]=rand()&1000;
   }
   t=0;
+  p=0;
   for (int j=1;j<=N;j++)
   {
       for (int g=1;g<=M;g++)
@@ -30,8 +31,10 @@ int main()
       {
         maxx=max(A[l+1][s],A[l][s+1]);
         t+=maxx;
+        p++;
       }
   }
   printf("max = %d",t);
+  printf("way (l) = %d",l);
     return 0;
 }
